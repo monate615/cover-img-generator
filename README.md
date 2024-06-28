@@ -1,0 +1,69 @@
+# 🏙 Cover Image Generator
+
+Generate a cover image for your blog post online.
+
+```
+⚠️ Clear cache and check demo. On mac CMD + Shift + R, On Windows Ctrl + F5
+```
+
+[![Cover Image Generator](https://github.com/monate615/cover-image-generator/blob/master/preview.png?raw=true 'Cover Image Generator')]()
+
+✅ Live Preview: <a href="https://blogcover.now.sh/" target="_BLANK">Click Here</a>
+
+📹 Video Preview: <a href="https://www.youtube.com/watch?v=GGTrhgKrch8" target="_BLANK">Click Here</a>
+
+   <p align="center">
+   Made with ❤️ by <a href="https://twitter.com/jp1016v1"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/jp1016v1?style=social"></a>
+<a href="https://twitter.com/PJijin"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/PJijin?style=social"></a>
+  </p>
+ 
+
+
+## ✨ Features
+
+-   🌌 Generate Cover Image Online.
+
+-   🖱 Drag and drop - Change content position easily
+
+-   🖼 Insert image from computer
+
+-   🌅 Change background Image from URL, Insert from Unsplash
+
+-   💻 Quick Insert Programming Logos (Material Icons)
+
+-   🌈 Change Canvas border
+
+-   🔆 Dark / Light mode
+
+-   🔛 Change canvas width, height
+
+-   🎨 Customize Background, Font colours
+
+-   ⬇️ Download Image in PNG, SVG, JPEG Format
+
+-   🖋 Font Selection Option
+
+-   Background darken Option
+
+## 📝 To Do
+
+-   Text Shadow Option
+
+
+## ⚙️ Usage
+
+You can use the online version to generate cover image. <a href="https://blogcover.now.sh/" target="_BLANK">Click Here</a>
+
+OR
+
+1. Clone the Repo `git clone https://github.com/monate615/cover-image-generator.git`
+2. Run `npm install`
+3. Run `npm start`
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! 😍
+
+## Show your support
+
+Give a ⭐️ if this project helped you! 🥰

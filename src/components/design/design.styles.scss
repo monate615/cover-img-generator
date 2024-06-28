@@ -1,0 +1,143 @@
+[contenteditable]:focus {
+	outline: 0px solid transparent;
+}
+
+.movable {
+	display: flex;
+}
+
+.movable .handle {
+	width: 25px;
+	height: 18px;
+	fill: white;
+	display: none;
+	top: -10px;
+}
+
+.movable .delete {
+	width: 25px;
+	height: 18px;
+	fill: white;
+	display: none;
+}
+
+.movable:hover .handle,
+.movable:hover .delete {
+	display: block;
+	position: absolute;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.handle {
+	cursor: move;
+}
+
+.design-frame {
+	box-sizing: border-box;
+}
+
+.capture {
+	max-width: 1000px;
+	max-height: 420px;
+	min-height: 420px;
+}
+
+.heading {
+	padding-left: 10px;
+}
+
+.sub-heading {
+	padding-left: 10px;
+}
+
+.frame-image {
+	width: 200px;
+	height: 200px;
+}
+
+.capture h3 {
+	display: block;
+}
+
+.toolbar {
+	display: flex;
+	margin: 20px 0;
+	justify-content: flex-end;
+}
+
+.toolbar .download {
+	background: var(--primary);
+	border: 0px;
+	color: white;
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	outline: 0px;
+	display: flex;
+	align-items: center;
+}
+
+.download svg {
+	margin-right: 10px;
+}
+.download:hover {
+	background: var(--primary-dark);
+}
+
+.toolbar .source {
+	color: var(--text-color);
+	background: var(--background-color);
+	border: 0px;
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	margin-left: 15px;
+	outline: 0px;
+}
+
+.stargazers {
+	border: 0px;
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	text-decoration: none;
+	display: flex;
+
+	font-size: 12px;
+	margin-left: 15px;
+	outline: 0px;
+}
+
+.source:hover,
+.toggle-mode:hover {
+	background: var(--secondary-hover) !important;
+}
+
+.toolbar .toggle-mode {
+	color: var(--text-color);
+	background: var(--background-color);
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	border: 0px;
+	outline: 0px;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.image-wrapper {
+	display: flex;
+	width: 1000px;
+	flex-wrap: wrap;
+}
